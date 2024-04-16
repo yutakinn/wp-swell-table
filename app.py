@@ -70,7 +70,7 @@ def generate_table_html(company, permission_number, permission_url, closed_jobs,
         <th style="text-align:center;">検索機能<br>職種</th>
         <td>
           <details>
-            <summary><i class="fas fa-briefcase"></i> 職種一覧を見る</summary>
+            <summary><i class="fas fa-briefcase"></i> 職種一覧を開く</summary>
             {job_search}
           </details>
         </td>
@@ -79,7 +79,7 @@ def generate_table_html(company, permission_number, permission_url, closed_jobs,
         <th style="text-align:center;">検索機能<br>スキル・資格</th>
         <td>
           <details>
-            <summary><i class="fas fa-wrench"></i> スキル・資格一覧を見る</summary>
+            <summary><i class="fas fa-wrench"></i> スキル・資格一覧を開く</summary>
             {skill_search}
           </details>
         </td>
@@ -88,13 +88,13 @@ def generate_table_html(company, permission_number, permission_url, closed_jobs,
         <th style="text-align:center;">対応エリア</th>
         <td>
           <details>
-            <summary><i class="fas fa-map-marker-alt"></i> 対応エリア一覧を見る</summary>
+            <summary><i class="fas fa-map-marker-alt"></i> 対応エリア一覧を開く</summary>
             {area}
           </details>
         </td>
       </tr>
       <tr>
-        <th style="text-align:center;">特徴一覧</th>
+        <th style="text-align:center;">ポイント</th>
         <td>
           {feature_html}
         </td>
